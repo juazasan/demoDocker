@@ -1,0 +1,10 @@
+{
+  "name": "demo_docker",
+  "version": "1.0.0",
+  "description": "Return container network configuration",
+  "author": "Juan Carlos Zamroa <jzamora@microsoft.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

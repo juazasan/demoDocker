@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  demo-docker:
+    build: demo-docker
+    image: juazasan/demo-docker    
+    ports: ["80"]
