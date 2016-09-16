@@ -1,0 +1,24 @@
+{
+  "Services": {
+    "swarmproxy": {
+      "Command": [
+        "nginx", 
+        "-g", 
+        "daemon off;", 
+        "-c", 
+        "/etc/nginx/nginx.conf"
+      ], 
+      "Image": "nginx@sha256:aa5ac743d65e434c06fff5ceaab6f35cc8519d80a5b6767ed3bdb330f47e4c31", 
+      "Networks": [
+        "default"
+      ], 
+      "Ports": [
+        {
+          "Port": 80, 
+          "Protocol": "tcp"
+        }
+      ]
+    }
+  }, 
+  "Version": "0.1"
+}

@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  swarmproxy:    
+    image: nginx:latest
+    entrypoint: nginx
+    command: -g "daemon off;" -c /etc/nginx/nginx.conf
