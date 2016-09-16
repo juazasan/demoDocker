@@ -1,0 +1,14 @@
+{
+  "name": "reverse_proxy",
+  "version": "1.0.0",
+  "description": "Proxies HTTP Requests",
+  "author": "Juan Carlos Zamroa <jzamora@microsoft.com>",
+  "main": "server.js",
+    "dependencies": {
+      "express": "~4.10.2",
+      "request": "~2.74.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

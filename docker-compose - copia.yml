@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  demo-docker:
+    build: demo-docker
+    image: juazasan/demo-docker    
+    ports: ["80"]
+  reverse-proxy:
+    build: reverse-proxy
+    image: juazasan/reverse-proxy    
+    ports: ["8080"]
